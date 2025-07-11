@@ -77,7 +77,7 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "malvin~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, NADIYA MD User!* 👋🏻
+                        let desc =`*Hey there, NADIYA MD User!* 👋🏻
 
 Thanks for using *NADIYA MD* — your session has been successfully created!
 
@@ -92,19 +92,19 @@ https://whatsapp.com/channel/0029Vb8n2cA9mrGioPDAcJ1W
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/Malvin-pair/
+https://github.com/Nadiyaofc/Malvin-pair/
 
 ——————
 
-> *© Powered by NADIYA YT OFC*
+> *© Powered by NADIYA YT OFC *
 Stay cool and hack smart. ✌🏻`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-xᴅ",
-thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+title: "NADIYA ",
+thumbnailUrl: "https://i.postimg.cc/prgvJdNH/IMG-20250707-WA0002.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb8n2cA9mrGioPDAcJ1W",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -113,7 +113,7 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `Hey there, NADIYA MD User!* 👋🏻
+                            let desc =`*Hey there, NADIYA MD User!* 👋🏻
 
 Thanks for using *NADIYA MD* — your session has been successfully created!
 
@@ -128,11 +128,11 @@ https://whatsapp.com/channel/0029Vb8n2cA9mrGioPDAcJ1W
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/Malvin-pair/
+https://github.com/Nadiyaofc/Malvin-pair/
 
 ——————
 
-> *© Powered by NADIYA YT OFC*
+> *© Powered by NADIYA YT OFC *
 Stay cool and hack smart. ✌🏻`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
